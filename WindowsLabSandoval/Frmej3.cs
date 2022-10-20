@@ -19,12 +19,16 @@ namespace WindowsLabSandoval
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int i = Convert.ToInt32(txtNum1.Text);
-
-            for (int i = 0; i <= 10; i++)
+            int num = Convert.ToInt32(txtNum1.Text);
+            string resultado = "";
+     
+            for (int i = 1; i <= 12; i++)
             {
-                Console.WriteLine(number + "x" + i + "=" + (i * number));
+               
+                resultado += num + "x" + i + "=" + (i * num) + "\n";
+                
             }
+            MessageBox.Show(resultado);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace WindowsLabSandoval
 {
-    partial class FrmCaso2
+    partial class FrmLyVCaso2
     {
         /// <summary>
         /// Required designer variable.

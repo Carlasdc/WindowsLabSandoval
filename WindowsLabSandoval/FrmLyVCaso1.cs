@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsLabSandoval
 {
-    public partial class FrmCaso1 : Form
+    public partial class FrmLyVCaso1 : Form
     {
-        public FrmCaso1()
+        public FrmLyVCaso1()
         {
             InitializeComponent();
         }

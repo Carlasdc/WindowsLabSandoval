@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsLabSandoval
 {
-    public partial class FrmCaso2 : Form
+    public partial class FrmLyVCaso2 : Form
     {
         private int[] product_prices; 
-        public FrmCaso2()
+        public FrmLyVCaso2()
         {
             InitializeComponent();
             this.product_prices = new int[8];

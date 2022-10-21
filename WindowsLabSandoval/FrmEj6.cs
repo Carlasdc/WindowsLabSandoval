@@ -12,6 +12,9 @@ namespace WindowsLabSandoval
 {
     public partial class FrmEj6 : Form
     {
+        private string nombre;
+        private string apellido;
+        private DateTime fechaDeNacimento;
         public FrmEj6()
         {
             InitializeComponent();
@@ -19,19 +22,30 @@ namespace WindowsLabSandoval
 
         private void FrmEj6_Load(object sender, EventArgs e)
         {
-
-            string nombre, apellido, fecha;
-            nombre = txtNombre.Text;
-            apellido = txtApellido.Text;
-            fecha = txtFecha.Text;
+        }
+        private void Imprimir(string nombre, string apellido)
+        {
 
             MessageBox.Show("Nombre: " + nombre + ", " + apellido);
 
-            /*{
-                int anio = dateTimePicker1.Value.Year;
-
-                MessageBox.Show(nombre + " " + apellido + " tiene " + anio.ToString());
-            }*/
         }
+        private void Imprimir(string nombre, string apellido, DateTime fechaNac)
+        {
+            //solamente tiene en cuenta el anio de nac pero no el mes
+            int edad = DateTime.Today.Year - dateTimePicker1.Value.Year;
+            MessageBox.Show(nombre + " " + apellido + " tiene " + edad.ToString() + " años");
+
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+      
+            this.nombre = txtNombre.Text;
+            this.apellido = txtApellido.Text;
+            this.fechaDeNacimento = dateTimePicker1.Value;
+
+            Imprimir(this.nombre, this.apellido);
+            Imprimir(this.nombre, this.apellido, this.fechaDeNacimento);
+       }
     }
 }

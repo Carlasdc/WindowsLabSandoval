@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsLabSandoval
 {
-    public partial class FrmLoopCaso2 : Form
+    public partial class FrmCaso1 : Form
     {
-        public FrmLoopCaso2()
+        public FrmCaso1()
         {
             InitializeComponent();
-        }
-
-        private void btnIngresar_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnMostrar_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

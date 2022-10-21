@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblApellido = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSubmit
             // 
-            this.button1.Location = new System.Drawing.Point(218, 228);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSubmit.Location = new System.Drawing.Point(249, 228);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 0;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // lblNombre
             // 
@@ -57,7 +58,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(206, 63);
+            this.txtNombre.Location = new System.Drawing.Point(240, 63);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 2;
@@ -82,30 +83,30 @@
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(206, 121);
+            this.txtApellido.Location = new System.Drawing.Point(240, 121);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(100, 20);
             this.txtApellido.TabIndex = 5;
             // 
-            // txtFecha
+            // dateTimePicker1
             // 
-            this.txtFecha.Location = new System.Drawing.Point(206, 173);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(100, 20);
-            this.txtFecha.TabIndex = 6;
+            this.dateTimePicker1.Location = new System.Drawing.Point(188, 170);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 6;
             // 
             // FrmEj6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 450);
-            this.Controls.Add(this.txtFecha);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSubmit);
             this.Name = "FrmEj6";
             this.Text = "FrmEj6";
             this.Load += new System.EventHandler(this.FrmEj6_Load);
@@ -116,12 +117,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtFecha;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

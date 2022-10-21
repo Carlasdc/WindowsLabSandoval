@@ -16,7 +16,7 @@ namespace WindowsLabSandoval
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmEj4());
+            Application.Run(new FrmEj6());
         }
     }
 }

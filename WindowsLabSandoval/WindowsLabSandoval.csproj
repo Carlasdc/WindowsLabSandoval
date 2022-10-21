@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -64,6 +65,30 @@
     <Compile Include="Frmej3.Designer.cs">
       <DependentUpon>Frmej3.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEj4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEj4.Designer.cs">
+      <DependentUpon>FrmEj4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEj5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEj5.Designer.cs">
+      <DependentUpon>FrmEj5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEj6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEj6.Designer.cs">
+      <DependentUpon>FrmEj6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoopCaso2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoopCaso2.Designer.cs">
+      <DependentUpon>FrmLoopCaso2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +99,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frmej3.resx">
       <DependentUpon>Frmej3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEj4.resx">
+      <DependentUpon>FrmEj4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEj5.resx">
+      <DependentUpon>FrmEj5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEj6.resx">
+      <DependentUpon>FrmEj6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoopCaso2.resx">
+      <DependentUpon>FrmLoopCaso2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

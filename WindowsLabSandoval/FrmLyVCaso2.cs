@@ -7,40 +7,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace WindowsLabSandoval
 {
     public partial class FrmLyVCaso2 : Form
-    {
-        private int[] product_prices; 
+    { 
         public FrmLyVCaso2()
         {
-            InitializeComponent();
-            this.product_prices = new int[8];
+            InitializeComponent();  
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            // crear un intput box que diga insertar numero
+            int[] precio = new int[8];
+            
+            
             for (int i = 0; i < 8; i++)
             {
-                //mostras el mensaje que insert
-
-                // agregas lo que inserto al vector
-
-                //mostras mensaje de success
+                precio[i] = Convert.ToInt32(Interaction.InputBox("Ingrese el precio del producto: ", "Carga de precios","0"));
                 
-                //limpias el input box
-
-
             }
-        }
+            //sumar todos los precios del vector
+            int total = precio.Sum();
+            MessageBox.Show("Total: " + total.ToString());
 
-        private void btnMostrar_Click(object sender, EventArgs e)
-        {
-           //asignas a una variuable
-           //this.product_prices.Sum();
-            //mostras el mensaje
         }
     }
 }

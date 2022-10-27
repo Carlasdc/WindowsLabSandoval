@@ -1,6 +1,6 @@
 ﻿namespace WindowsLabSandoval
 {
-    partial class FrmLyVCaso2
+    partial class FrmLyVCaso3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(202, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(159, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Carga de datos de los operarios ";
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(156, 62);
+            this.btnIngresar.Location = new System.Drawing.Point(214, 118);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(98, 23);
-            this.btnIngresar.TabIndex = 0;
-            this.btnIngresar.Text = "Comenzar suma";
+            this.btnIngresar.Size = new System.Drawing.Size(135, 23);
+            this.btnIngresar.TabIndex = 1;
+            this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // FrmLyVCaso2
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(123, 128);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 12;
+            // 
+            // FrmLyVCaso3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 450);
+            this.ClientSize = new System.Drawing.Size(624, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnIngresar);
-            this.Name = "FrmLyVCaso2";
-            this.Text = "FrmLoopCaso2";
+            this.Controls.Add(this.label1);
+            this.Name = "FrmLyVCaso3";
+            this.Text = "FrmLyVCaso3";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnIngresar;
+        private System.Windows.Forms.Label label2;
     }
 }

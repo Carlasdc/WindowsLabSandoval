@@ -53,12 +53,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCaso1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCaso1.Designer.cs">
-      <DependentUpon>FrmCaso1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frmej2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +83,35 @@
     <Compile Include="FrmEj6.Designer.cs">
       <DependentUpon>FrmEj6.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCaso2.cs">
+    <Compile Include="FrmLyVCaso1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCaso2.Designer.cs">
-      <DependentUpon>FrmCaso2.cs</DependentUpon>
+    <Compile Include="FrmLyVCaso1.Designer.cs">
+      <DependentUpon>FrmLyVCaso1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLyVCaso2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLyVCaso2.Designer.cs">
+      <DependentUpon>FrmLyVCaso2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLyVCaso3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLyVCaso3.Designer.cs">
+      <DependentUpon>FrmLyVCaso3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLyVCaso4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLyVCaso4.Designer.cs">
+      <DependentUpon>FrmLyVCaso4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLyVCaso5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLyVCaso5.Designer.cs">
+      <DependentUpon>FrmLyVCaso5.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,8 +133,20 @@
     <EmbeddedResource Include="FrmEj6.resx">
       <DependentUpon>FrmEj6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCaso2.resx">
-      <DependentUpon>FrmCaso2.cs</DependentUpon>
+    <EmbeddedResource Include="FrmLyVCaso1.resx">
+      <DependentUpon>FrmLyVCaso1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLyVCaso2.resx">
+      <DependentUpon>FrmLyVCaso2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLyVCaso3.resx">
+      <DependentUpon>FrmLyVCaso3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLyVCaso4.resx">
+      <DependentUpon>FrmLyVCaso4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLyVCaso5.resx">
+      <DependentUpon>FrmLyVCaso5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

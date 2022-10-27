@@ -1,6 +1,6 @@
 ﻿namespace WindowsLabSandoval
 {
-    partial class FrmLyVCaso2
+    partial class FrmLyVCaso4
     {
         /// <summary>
         /// Required designer variable.
@@ -33,22 +33,22 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(156, 62);
+            this.btnIngresar.Location = new System.Drawing.Point(365, 189);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(98, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(75, 23);
             this.btnIngresar.TabIndex = 0;
-            this.btnIngresar.Text = "Comenzar suma";
+            this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // FrmLyVCaso2
+            // FrmLyVCaso4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 450);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnIngresar);
-            this.Name = "FrmLyVCaso2";
-            this.Text = "FrmLoopCaso2";
+            this.Name = "FrmLyVCaso4";
+            this.Text = "FrmLyVCaso4";
             this.ResumeLayout(false);
 
         }
